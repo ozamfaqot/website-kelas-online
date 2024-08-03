@@ -1,0 +1,13 @@
+npx express --no-view service-media
+npm install
+npm start
+npm install dotenv --save
+npm i sequelize sequelize-cli --save
+npx sequelize (untuk menu help)
+npx sequelize init (inisilaisasi sequelize pd prrjek)
+npx sequelize migration:create --name=create_media_table
+npx sequelize db:migrate
+npm i mysql2 --save
+npx sequelize db:migrate
+npx sequelize db:migrate:undo
+npm install is-base64 base64-img --save
